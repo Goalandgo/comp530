@@ -1,7 +1,6 @@
 
 #ifndef TABLE_C
 #define TABLE_C
-back
 #include "../headers/MyDB_Table.h"
 
 MyDB_Table :: MyDB_Table (string name, string storageLocIn) {

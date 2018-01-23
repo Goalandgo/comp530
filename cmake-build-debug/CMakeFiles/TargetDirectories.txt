@@ -1,0 +1,3 @@
+/cygdrive/f/comp530/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/f/comp530/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/f/comp530/cmake-build-debug/CMakeFiles/comp530.dir

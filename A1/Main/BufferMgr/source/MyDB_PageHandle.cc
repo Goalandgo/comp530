@@ -6,7 +6,7 @@
 #include "../headers/MyDB_PageHandle.h"
 
 void *MyDB_PageHandleBase :: getBytes () {
-	return nullptr;
+	return NULL;
 }
 
 void MyDB_PageHandleBase :: wroteBytes () {
