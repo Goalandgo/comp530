@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /Users/jinjianwei/Desktop/530_projects
+=======
+# Install script for directory: /cygdrive/f/comp530
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +39,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/Users/jinjianwei/Desktop/530_projects/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/cygdrive/f/comp530/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

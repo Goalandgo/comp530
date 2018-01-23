@@ -39,19 +39,33 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
 RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+=======
+CMAKE_COMMAND = /cygdrive/c/Users/Qi/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe
+
+# The command to remove a file.
+RM = /cygdrive/c/Users/Qi/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /Users/jinjianwei/Desktop/530_projects
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/jinjianwei/Desktop/530_projects/cmake-build-debug
+=======
+CMAKE_SOURCE_DIR = /cygdrive/f/comp530
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /cygdrive/f/comp530/cmake-build-debug
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +73,11 @@ CMAKE_BINARY_DIR = /Users/jinjianwei/Desktop/530_projects/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+<<<<<<< HEAD
 	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/cygdrive/c/Users/Qi/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +88,11 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+<<<<<<< HEAD
 	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+=======
+	/cygdrive/c/Users/Qi/.CLion2017.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +102,15 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jinjianwei/Desktop/530_projects/cmake-build-debug/CMakeFiles /Users/jinjianwei/Desktop/530_projects/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jinjianwei/Desktop/530_projects/cmake-build-debug/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/comp530/cmake-build-debug/CMakeFiles /cygdrive/f/comp530/cmake-build-debug/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/comp530/cmake-build-debug/CMakeFiles 0
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : all
 
 # The main clean target
@@ -111,6 +139,7 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named 530_projects
 
 # Build rule for target.
@@ -122,6 +151,19 @@ depend:
 530_projects/fast:
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/build
 .PHONY : 530_projects/fast
+=======
+# Target rules for targets named comp530
+
+# Build rule for target.
+comp530: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 comp530
+.PHONY : comp530
+
+# fast build rule for target.
+comp530/fast:
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/build
+.PHONY : comp530/fast
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 
 A1/Main/BufferMgr/source/MyDB_BufferManager.o: A1/Main/BufferMgr/source/MyDB_BufferManager.cc.o
 
@@ -129,7 +171,11 @@ A1/Main/BufferMgr/source/MyDB_BufferManager.o: A1/Main/BufferMgr/source/MyDB_Buf
 
 # target to build an object file
 A1/Main/BufferMgr/source/MyDB_BufferManager.cc.o:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.o
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.o
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferMgr/source/MyDB_BufferManager.cc.o
 
 A1/Main/BufferMgr/source/MyDB_BufferManager.i: A1/Main/BufferMgr/source/MyDB_BufferManager.cc.i
@@ -138,7 +184,11 @@ A1/Main/BufferMgr/source/MyDB_BufferManager.i: A1/Main/BufferMgr/source/MyDB_Buf
 
 # target to preprocess a source file
 A1/Main/BufferMgr/source/MyDB_BufferManager.cc.i:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.i
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.i
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferMgr/source/MyDB_BufferManager.cc.i
 
 A1/Main/BufferMgr/source/MyDB_BufferManager.s: A1/Main/BufferMgr/source/MyDB_BufferManager.cc.s
@@ -147,7 +197,11 @@ A1/Main/BufferMgr/source/MyDB_BufferManager.s: A1/Main/BufferMgr/source/MyDB_Buf
 
 # target to generate assembly for a file
 A1/Main/BufferMgr/source/MyDB_BufferManager.cc.s:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.s
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.s
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferMgr/source/MyDB_BufferManager.cc.s
 
 A1/Main/BufferMgr/source/MyDB_Page.o: A1/Main/BufferMgr/source/MyDB_Page.cpp.o
@@ -156,7 +210,11 @@ A1/Main/BufferMgr/source/MyDB_Page.o: A1/Main/BufferMgr/source/MyDB_Page.cpp.o
 
 # target to build an object file
 A1/Main/BufferMgr/source/MyDB_Page.cpp.o:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.o
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.o
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferMgr/source/MyDB_Page.cpp.o
 
 A1/Main/BufferMgr/source/MyDB_Page.i: A1/Main/BufferMgr/source/MyDB_Page.cpp.i
@@ -165,7 +223,11 @@ A1/Main/BufferMgr/source/MyDB_Page.i: A1/Main/BufferMgr/source/MyDB_Page.cpp.i
 
 # target to preprocess a source file
 A1/Main/BufferMgr/source/MyDB_Page.cpp.i:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.i
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.i
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferMgr/source/MyDB_Page.cpp.i
 
 A1/Main/BufferMgr/source/MyDB_Page.s: A1/Main/BufferMgr/source/MyDB_Page.cpp.s
@@ -174,7 +236,11 @@ A1/Main/BufferMgr/source/MyDB_Page.s: A1/Main/BufferMgr/source/MyDB_Page.cpp.s
 
 # target to generate assembly for a file
 A1/Main/BufferMgr/source/MyDB_Page.cpp.s:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.s
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.s
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferMgr/source/MyDB_Page.cpp.s
 
 A1/Main/BufferMgr/source/MyDB_PageHandle.o: A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o
@@ -183,7 +249,11 @@ A1/Main/BufferMgr/source/MyDB_PageHandle.o: A1/Main/BufferMgr/source/MyDB_PageHa
 
 # target to build an object file
 A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o
 
 A1/Main/BufferMgr/source/MyDB_PageHandle.i: A1/Main/BufferMgr/source/MyDB_PageHandle.cc.i
@@ -192,7 +262,11 @@ A1/Main/BufferMgr/source/MyDB_PageHandle.i: A1/Main/BufferMgr/source/MyDB_PageHa
 
 # target to preprocess a source file
 A1/Main/BufferMgr/source/MyDB_PageHandle.cc.i:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.i
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.i
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferMgr/source/MyDB_PageHandle.cc.i
 
 A1/Main/BufferMgr/source/MyDB_PageHandle.s: A1/Main/BufferMgr/source/MyDB_PageHandle.cc.s
@@ -201,7 +275,11 @@ A1/Main/BufferMgr/source/MyDB_PageHandle.s: A1/Main/BufferMgr/source/MyDB_PageHa
 
 # target to generate assembly for a file
 A1/Main/BufferMgr/source/MyDB_PageHandle.cc.s:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.s
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.s
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferMgr/source/MyDB_PageHandle.cc.s
 
 A1/Main/BufferMgr/source/Node.o: A1/Main/BufferMgr/source/Node.cpp.o
@@ -210,7 +288,11 @@ A1/Main/BufferMgr/source/Node.o: A1/Main/BufferMgr/source/Node.cpp.o
 
 # target to build an object file
 A1/Main/BufferMgr/source/Node.cpp.o:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferMgr/source/Node.cpp.o
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferMgr/source/Node.cpp.o
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferMgr/source/Node.cpp.o
 
 A1/Main/BufferMgr/source/Node.i: A1/Main/BufferMgr/source/Node.cpp.i
@@ -219,7 +301,11 @@ A1/Main/BufferMgr/source/Node.i: A1/Main/BufferMgr/source/Node.cpp.i
 
 # target to preprocess a source file
 A1/Main/BufferMgr/source/Node.cpp.i:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferMgr/source/Node.cpp.i
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferMgr/source/Node.cpp.i
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferMgr/source/Node.cpp.i
 
 A1/Main/BufferMgr/source/Node.s: A1/Main/BufferMgr/source/Node.cpp.s
@@ -228,7 +314,11 @@ A1/Main/BufferMgr/source/Node.s: A1/Main/BufferMgr/source/Node.cpp.s
 
 # target to generate assembly for a file
 A1/Main/BufferMgr/source/Node.cpp.s:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferMgr/source/Node.cpp.s
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferMgr/source/Node.cpp.s
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferMgr/source/Node.cpp.s
 
 A1/Main/BufferTest/source/BufferQUnit.o: A1/Main/BufferTest/source/BufferQUnit.cc.o
@@ -237,7 +327,11 @@ A1/Main/BufferTest/source/BufferQUnit.o: A1/Main/BufferTest/source/BufferQUnit.c
 
 # target to build an object file
 A1/Main/BufferTest/source/BufferQUnit.cc.o:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferTest/source/BufferQUnit.cc.o
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferTest/source/BufferQUnit.cc.o
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferTest/source/BufferQUnit.cc.o
 
 A1/Main/BufferTest/source/BufferQUnit.i: A1/Main/BufferTest/source/BufferQUnit.cc.i
@@ -246,7 +340,11 @@ A1/Main/BufferTest/source/BufferQUnit.i: A1/Main/BufferTest/source/BufferQUnit.c
 
 # target to preprocess a source file
 A1/Main/BufferTest/source/BufferQUnit.cc.i:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferTest/source/BufferQUnit.cc.i
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferTest/source/BufferQUnit.cc.i
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferTest/source/BufferQUnit.cc.i
 
 A1/Main/BufferTest/source/BufferQUnit.s: A1/Main/BufferTest/source/BufferQUnit.cc.s
@@ -255,7 +353,11 @@ A1/Main/BufferTest/source/BufferQUnit.s: A1/Main/BufferTest/source/BufferQUnit.c
 
 # target to generate assembly for a file
 A1/Main/BufferTest/source/BufferQUnit.cc.s:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/BufferTest/source/BufferQUnit.cc.s
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/BufferTest/source/BufferQUnit.cc.s
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/BufferTest/source/BufferQUnit.cc.s
 
 A1/Main/Catalog/source/MyDB_Table.o: A1/Main/Catalog/source/MyDB_Table.cc.o
@@ -264,7 +366,11 @@ A1/Main/Catalog/source/MyDB_Table.o: A1/Main/Catalog/source/MyDB_Table.cc.o
 
 # target to build an object file
 A1/Main/Catalog/source/MyDB_Table.cc.o:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/Catalog/source/MyDB_Table.cc.o
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/Catalog/source/MyDB_Table.cc.o
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/Catalog/source/MyDB_Table.cc.o
 
 A1/Main/Catalog/source/MyDB_Table.i: A1/Main/Catalog/source/MyDB_Table.cc.i
@@ -273,7 +379,11 @@ A1/Main/Catalog/source/MyDB_Table.i: A1/Main/Catalog/source/MyDB_Table.cc.i
 
 # target to preprocess a source file
 A1/Main/Catalog/source/MyDB_Table.cc.i:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/Catalog/source/MyDB_Table.cc.i
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/Catalog/source/MyDB_Table.cc.i
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/Catalog/source/MyDB_Table.cc.i
 
 A1/Main/Catalog/source/MyDB_Table.s: A1/Main/Catalog/source/MyDB_Table.cc.s
@@ -282,7 +392,11 @@ A1/Main/Catalog/source/MyDB_Table.s: A1/Main/Catalog/source/MyDB_Table.cc.s
 
 # target to generate assembly for a file
 A1/Main/Catalog/source/MyDB_Table.cc.s:
+<<<<<<< HEAD
 	$(MAKE) -f CMakeFiles/530_projects.dir/build.make CMakeFiles/530_projects.dir/A1/Main/Catalog/source/MyDB_Table.cc.s
+=======
+	$(MAKE) -f CMakeFiles/comp530.dir/build.make CMakeFiles/comp530.dir/A1/Main/Catalog/source/MyDB_Table.cc.s
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 .PHONY : A1/Main/Catalog/source/MyDB_Table.cc.s
 
 # Help Target
@@ -293,7 +407,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+<<<<<<< HEAD
 	@echo "... 530_projects"
+=======
+	@echo "... comp530"
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
 	@echo "... A1/Main/BufferMgr/source/MyDB_BufferManager.o"
 	@echo "... A1/Main/BufferMgr/source/MyDB_BufferManager.i"
 	@echo "... A1/Main/BufferMgr/source/MyDB_BufferManager.s"

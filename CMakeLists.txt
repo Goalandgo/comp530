@@ -1,9 +1,23 @@
 cmake_minimum_required(VERSION 3.9)
+<<<<<<< HEAD
 project(530_projects)
 
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(530_projects
+=======
+project(comp530)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(comp530
+        A1/.idea/codeStyles/Project.xml
+        A1/.idea/A1.iml
+        A1/.idea/misc.xml
+        A1/.idea/modules.xml
+        A1/.idea/vcs.xml
+        A1/.idea/workspace.xml
+>>>>>>> 6715e45d6ec8c8ae6d99eb98fffb151f67fcb6be
         A1/Build/SConstruct
         A1/cmake-build-debug/A1
         A1/cmake-build-debug/A1.cbp
